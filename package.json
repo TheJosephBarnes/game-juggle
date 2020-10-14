@@ -1,8 +1,8 @@
 {
   "name": "game-juggle",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
-  "description": "Small description for game-juggle goes here",
+  "description": "A website for the Game Juggle community",
   "repository": "",
   "license": "MIT",
   "author": "",
