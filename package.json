@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "A website for the Game Juggle community",
-  "repository": "",
+  "repository": "https://github.com/TheJosephBarnes/game-juggle",
   "license": "MIT",
   "author": "",
   "directories": {
