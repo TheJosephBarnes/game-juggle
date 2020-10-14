@@ -295,8 +295,8 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "BxxBWQJk",
-    "block": "{\"symbols\":[],\"statements\":[[7,\"h1\"],[9],[0,\"Welcome to Game Juggle\"],[10],[0,\"\\n\\n\"],[7,\"span\"],[9],[0,\"\\n    We are currently building the site!\"],[7,\"br\"],[9],[10],[0,\"\\n    We look forward to the official launch!\\n\"],[10],[0,\"\\n\\n\"],[1,[23,\"outlet\"],false]],\"hasEval\":false}",
+    "id": "MtTAXZoL",
+    "block": "{\"symbols\":[],\"statements\":[[7,\"h1\"],[9],[0,\"Welcome to Game Juggle\"],[10],[0,\"\\n\"],[7,\"h3\"],[9],[0,\"game coming soon\"],[10],[0,\"\\n\\n\"],[7,\"span\"],[9],[0,\"\\n    We are currently building the site!\"],[7,\"br\"],[9],[10],[0,\"\\n    We look forward to the official launch!\\n\"],[10],[0,\"\\n\\n\"],[1,[23,\"outlet\"],false]],\"hasEval\":false}",
     "meta": {
       "moduleName": "game-juggle/templates/application.hbs"
     }
@@ -327,7 +327,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("game-juggle/app")["default"].create({"name":"game-juggle","version":"0.1.0+6e894cfa"});
+            require("game-juggle/app")["default"].create({"name":"game-juggle","version":"0.1.0+f24ed47c"});
           }
         
 //# sourceMappingURL=game-juggle.map
