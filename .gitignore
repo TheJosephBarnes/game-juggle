@@ -9,6 +9,7 @@
 /node_modules/
 
 # misc
+/vendor/
 /.env*
 /.pnp*
 /.sass-cache
