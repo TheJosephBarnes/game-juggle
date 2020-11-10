@@ -1,19 +1,25 @@
+@import 'variables';
+
 & {
+    height: 60px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    background-color: #da5a16;
+    background-color: @juggle-purple;
 
     .juggle-logo {
-        display: flex;
-        align-self: center;
-        margin: 30px;
+        margin: 5px 15px;
+        flex: 0 90px;
+        
+        img {
+            height: 50px;
+        }
     }
 
     .nav-options {
         display: flex;
+        flex: 1;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
 
         .nav-tab {
             flex: 0 50px;

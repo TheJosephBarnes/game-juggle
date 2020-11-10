@@ -1,20 +1,22 @@
 <div class="juggle-logo">
-    <img src="/assets/images/juggle_banner.png" alt="Game Juggle" >
+    {{#link-to "application"}}
+        <img src="/assets/images/juggle_stars.png" alt="Game Juggle" >
+    {{/link-to}}
 </div>
 <div class="nav-options">
-    <div class="nav-tab nav-home">
+    {{!-- <div class="nav-tab nav-home">
         {{#link-to "application" class="nav-about-home"}}
             Home
         {{/link-to}}
-    </div>
+    </div> --}}
     <div class="nav-tab nav-about">
         {{#link-to "about" class="nav-about-link"}}
-            About
+            <h2>About</h2>
         {{/link-to}}
     </div>
     <div class="nav-tab nav-games">
         {{#link-to "games" class="nav-about-link"}}
-            Games
+            <h2>Games</h2>
         {{/link-to}}
     </div>
 </div>
